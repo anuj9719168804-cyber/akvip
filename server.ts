@@ -7,7 +7,7 @@ import { spawn, ChildProcess } from 'child_process';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const TARGET_API_ORIGIN = 'https://s2-cdn.pwnexus.eu.cc';
+const TARGET_API_ORIGIN = 'https://pwnexus.eu.cc';
 
 // ── Nexus gateway ─────────────────────────────────────────
 const NEXUS_PORT = process.env.NEXUS_PORT || '5055';
